@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+}
+
+.item-1 {
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 100px;    
+    z-index: 1;
+}
+
+.item-2 {
+    background-color: greenyellow;
+    margin-top: 200px;
+    margin-left: 200px;    
+    z-index: 3;
+}
+
+.item-3 {
+    background-color: blue;
+    margin-top: 300px;
+    margin-left: 300px;
+    z-index: 2;
+}
