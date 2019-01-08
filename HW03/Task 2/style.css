@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr;   
+    padding: 5px;
+    grid-gap: 5px;    
+}
+
+.item {
+    display: grid;
+    justify-self: stretch;
+    align-self: stretch;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;    
+}
+
+.orange {
+    background-color: orange;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.darkgreen {
+    background-color: darkgreen;
+}
