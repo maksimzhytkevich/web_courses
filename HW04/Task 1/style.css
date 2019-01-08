@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+div {
+    display: grid;
+    font-size: 60px;
+    align-items: center;
+    justify-items: center;
+}
