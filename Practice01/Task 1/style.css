@@ -45,7 +45,7 @@ header img {
     display: grid;
     justify-content: center;
     align-content: center;
-    width: 40%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 1%;
 }
@@ -53,12 +53,13 @@ header img {
 .dropdown {
     position: relative;
     display: inline-block;
+    width: 150%;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 300px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -67,6 +68,7 @@ header img {
 }
 
 .dropdown-content ul {
+    padding-left: 0px;
     list-style-type: none;
     font-size: 20px;
 }
@@ -86,6 +88,10 @@ header img {
     border-bottom: 0px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+.dropdown-content ul li:hover {
+    background-color: rgb(179, 173, 173);
 }
 
 .imputfield {
