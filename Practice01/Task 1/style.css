@@ -111,6 +111,7 @@ header img {
 .card {
     margin-bottom: 5%;
     margin-top: 5%;
+    height: auto;
 }
 
 .card-head {
@@ -121,7 +122,8 @@ header img {
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    max-width: 40vw;
+    max-width: 50vw;
+    min-width: 25vw;
 }
 
 .text {
@@ -131,11 +133,11 @@ header img {
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
     background-color: rgba(0, 0, 0, 0.5);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    max-width: 50vw;   
+    min-width: 25vw;
 }
 
 .card-button {
@@ -148,6 +150,7 @@ header img {
     border-bottom-right-radius: 25px;
     border: 0px;    
     outline: none;
+    min-width: 25vw;
 }
 
 .card-button:hover {
@@ -164,4 +167,5 @@ header img {
     position: absolute;
     left: 0;
     bottom: 10%;
+    min-width: 25vw;
 }
