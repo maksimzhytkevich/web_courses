@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 body {
     background-color: rgb(202, 184, 184);    
 }
@@ -5,7 +9,7 @@ body {
 table {
     border: 1px solid black;
     text-align: center;
-    margin: 1%;        
+    margin: 1%;     
 }
 
 th {
@@ -17,26 +21,24 @@ th {
 td {
     border: 1px solid black;
     background-color: white;
-    margin: 1px;
+}
+
+td button {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;   
+}
+
+.bt:hover {
+    background-color: gray;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-}
-
-.navigation button {
-    margin: 2px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    outline: none;
-    color: blue;
-    background-color: white;
-    font-size: 20px;
-}
-
-.navigation button:hover{
-    background-color: rgb(212, 204, 204);
 }
 
 form{
@@ -53,6 +55,20 @@ form div{
     font-size: 20px;
 }
 
+.button {
+    margin: 2px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    outline: none;
+    color: blue;
+    background-color: white;
+    font-size: 20px;   
+}
+
+.button:hover{
+    background-color: rgb(212, 204, 204);
+}
+
 label {
     height: auto;
     font-size: 18px;
@@ -60,12 +76,17 @@ label {
     margin: 1px;    
 }
 
-input {
+input {    
     height: auto;   
     border: 1px solid blue;
     font-size: 18px;
     border-radius: 10px;
     outline: none;
-    margin: 1px;
-    padding-left:2px;
+    margin: 2px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;   
 }
