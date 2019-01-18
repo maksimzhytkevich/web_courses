@@ -1,18 +1,22 @@
 * {
     height: 100%;
-    margin: 0px;
-    ;
+    margin: 0px;    
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    height: auto;
 }
 
 img {
     width: 100%;
-    height: auto;
+    height: auto;    
+}
+
+.container div {
+    min-width: 150px;
 }
 
 @media only screen and (min-device-width: 1920px) and (min-device-height: 1080px) {
@@ -20,6 +24,7 @@ img {
     .container div {
         width: 20%;
         height: auto;
+        min-width: 150px;
     }
 }
 
@@ -27,6 +32,7 @@ img {
     .container div {
         width: 25%;
         height: auto;
+        min-width: 150px;
     }
 
     .container div:nth-last-of-type(-n+2) {
