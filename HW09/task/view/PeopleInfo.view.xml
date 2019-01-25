@@ -1,0 +1,18 @@
+<mvc:View
+	controllerName="sap.ui.demo.db.controller.PeopleInfo"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="peopleInfoPage"
+		title="{i18n>PeopleInfo}"
+		showNavButton="true"
+		navButtonPress=".onNavBack"
+		class="sapUiResponsiveContentPadding">
+		<content>
+			<Text id="userName"/>
+			<Text id="firstName"/>
+			<Label id="lastName"/>
+			<Label id="gender"/>
+		</content>
+	</Page>
+</mvc:View>
